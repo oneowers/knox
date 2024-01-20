@@ -9,7 +9,8 @@ import {
     SiGithub,
     SiGooglechrome, SiGooglefonts,
     SiIntellijidea, SiJavascript, SiKotlin, SiLua,
-    SiNeovim, SiNextdotjs, SiReact, SiRust, SiTypescript, SiWebstorm, SiZig
+    SiNeovim, SiNextdotjs, SiReact, SiRust, SiTypescript, SiWebstorm, SiZig,SiBlender,SiVuedotjs,SiTailwindcss,SiPython,SiFlask,SiDjango,SiUnity,SiAtlassian,SiAdobepremierepro,SiPhp
+
 } from "react-icons/si";
 import AnimatedTools from "../animations/AnimatedTools.tsx";
 
@@ -36,9 +37,9 @@ const Tools = () => {
                             <AnimatedTools className="grid grid-cols-5 gap-4" delay={0.1} stepSize={0.1} iconSize={50}>
                                 <SiAdobephotoshop size={50}/>
                                 <SiAdobeaftereffects size={50}/>
-                                <SiAdobefonts size={50}/>
-                                <SiCinema4D size={50}/>
-                                <SiGooglefonts size={50}/>
+                                <SiAdobeillustrator size={50}/>
+                                <SiFigma size={50}/>
+                                <SiBlender size={50}/>
                             </AnimatedTools>
                         </div>
                     </div>
@@ -49,8 +50,8 @@ const Tools = () => {
                                 <SiTypescript size={50}/>
                                 <SiJavascript size={50}/>
                                 <SiReact size={50}/>
-                                <SiAstro size={50}/>
-                                <SiNextdotjs size={50}/>
+                                <SiVuedotjs size={50}/>
+                                <SiTailwindcss size={50}/>
                             </AnimatedTools>
                         </div>
                     </div>
@@ -58,10 +59,10 @@ const Tools = () => {
                         <AnimatedBody delay={0.3} text="Backend" />
                         <div>
                             <AnimatedTools className="grid grid-cols-5 gap-4" delay={0.3} stepSize={0.1} iconSize={50}>
-                                <SiZig size={50}/>
-                                <SiRust size={50}/>
-                                <SiCplusplus size={50}/>
-                                <SiLua size={50}/>
+                                <SiPython size={50}/>
+                                <SiFlask size={50}/>
+                                <SiDjango size={50}/>
+                                <SiPhp size={50}/>
                                 <SiKotlin size={50}/>
                             </AnimatedTools>
                         </div>
@@ -70,19 +71,15 @@ const Tools = () => {
                         <AnimatedBody delay={0.4} text="Other" />
                         <div>
                             <AnimatedTools className="grid grid-cols-5 gap-4" delay={0.4} stepSize={0.1} iconSize={50}>
-                                <SiGithub size={50}/>
-                                <SiGit size={50}/>
-                                <SiNeovim size={50}/>
                                 <SiIntellijidea size={50}/>
-                                <SiWebstorm size={50}/>
+                                <SiAtlassian size={50}/>
+                                <SiAdobepremierepro size={50}/>
+                                <SiGithub size={50}/>
+                                <SiFigma size={50}/>
                             </AnimatedTools>
                         </div>
                     </div>
                 </div>
-
-
-
-
             </div>
         </section>
     );

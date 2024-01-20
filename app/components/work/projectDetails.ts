@@ -7,7 +7,9 @@ import {
     SiRust,
     SiTailwindcss,
     SiTypescript,
-    SiZig
+    SiZig,
+    Si1Password,
+    SiVuedotjs
 } from "react-icons/si";
 import {IconType} from "react-icons";
 
@@ -27,12 +29,12 @@ export type ProjectProps = {
 export const projects = [
     {
         id: 0,
-        name: "Portfolio 2023",
+        name: "Knox",
         description:
-            "This is the fifth iteration of my portfolio.",
-        technologies: [SiTypescript, SiReact, SiNextdotjs, SiTailwindcss, SiFramer],
-        techNames: ["TypeScript", "React", "Next.js", "Tailwind CSS", "Framer Motion"],
-        techLinks: ["https://www.typescriptlang.org/", "https://reactjs.org/", "https://nextjs.org/", "https://tailwindcss.com/", "https://www.framer.com/motion/"],
+            "This is our portfolio",
+        technologies: [SiTypescript, SiReact, SiNextdotjs, SiTailwindcss,SiVuedotjs],
+        techNames: ["TypeScript", "React", "Next.js", "Tailwind CSS", "Vue", "qutaq"],
+        techLinks: ["https://www.typescriptlang.org/", "https://reactjs.org/", "https://nextjs.org/", "https://tailwindcss.com/", "https://www.framer.com/motion/","https://www.framer.com/motion/"],
         github: "https://github.com/nuIIpointerexception/www.seekvisualartist.com",
         demo: "https://www.seekvisualartist.com/",
         image: "/projects/portfolio.webp",
@@ -64,4 +66,5 @@ export const projects = [
         image: "/projects/construction.webp",
         available: false,
     },
+   
 ];
